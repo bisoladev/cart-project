@@ -19,7 +19,7 @@ const AppProvider = ({ children }) => {
   return (
     <AppContext.Provider
       value={{
-        ... state,
+        ...state,
       }}
     >
       {children}
