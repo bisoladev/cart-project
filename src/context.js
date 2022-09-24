@@ -45,6 +45,7 @@ const AppProvider = ({ children }) => {
   useEffect(() => {
     fetchData();
   }, []);
+  
   useEffect(() => {
     dispatch({ type: "GET_TOTALS" });
   }, [state.cart]);
